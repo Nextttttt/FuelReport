@@ -16,10 +16,10 @@
 
             petrolStations = DeserializeToObject<PetrolStationsList>("../../../PetrolStations.xml");
 
-            foreach(var item in petrolStations.PetrolStations)
-            {
-                Console.WriteLine(item.Fuels.);
-            }
+            //foreach(var item in petrolStations.PetrolStation)
+            //{
+            //    Console.WriteLine(item.Name);
+            //}
 
             
         }
